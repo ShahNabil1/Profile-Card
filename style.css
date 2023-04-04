@@ -137,3 +137,26 @@
 .card:hover .card-inner{
     transform: rotateY(180deg);
 }
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-bottom p{
+    font-size: 14px;
+    color: #fff;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .footer-bottom span{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: orangered;
+  }
